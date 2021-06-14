@@ -1,43 +1,3 @@
-console.log('hello world');
-
-process.on('exit', function(){
-    // do something
-})
-
-const { EventEmitter }  = require('events');
-const eventEmitter = new EventEmitter();
-
-eventEmitter.on('lunch', () => {
-    console.log('yum');
-})
-
-eventEmitter.emit('lunch')
-eventEmitter.emit('lunch')
-
-const { readFile, readFileSync, fstat } = require('fs');
-
-const txt = readFileSync('./hello.txt', 'utf8');
-
-console.log(txt);
-
-console.log('next message');
-
-readFile('./hello.txt', 'utf8', (err, txt) => {
-    console.log(txt)
-})
-
-console.log('another message');
-
-
-async function hello(){
-    const file = await readfile('./hello.txt', 'utf8');
-}
-
-// my module
-const myModule = require('./my-module');
-
-console.log(myModule);
-
 ///////////////////////////////////////express app///////////////////////////////////////
 
 const express = require('express');
@@ -219,3 +179,45 @@ MongoClient.connect(url, function(err, db){
 })
 */
 ////////////////////////////////////////////////////////////////////////////////////////////////
+/*
+console.log('hello world');
+
+process.on('exit', function(){
+    // do something
+})
+
+const { EventEmitter }  = require('events');
+const eventEmitter = new EventEmitter();
+
+eventEmitter.on('lunch', () => {
+    console.log('yum');
+})
+
+eventEmitter.emit('lunch')
+eventEmitter.emit('lunch')
+
+const { readFile, readFileSync, fstat } = require('fs');
+
+const txt = readFileSync('./hello.txt', 'utf8');
+
+console.log(txt);
+
+console.log('next message');
+
+readFile('./hello.txt', 'utf8', (err, txt) => {
+    console.log(txt)
+})
+
+console.log('another message');
+
+
+async function hello(){
+    const file = await readfile('./hello.txt', 'utf8');
+}
+
+// my module
+const myModule = require('./my-module');
+
+console.log(myModule);
+
+*/
