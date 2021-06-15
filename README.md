@@ -1,5 +1,8 @@
 # sentiment-analysis
 
+Rueben Tiow
+6/15/2021
+
 A simple web app that is built on Node.js to perform sentiment analysis using the AFINN-165 dataset.
 
 The general method for sentiment analysis in this project is to parse a block of text, and build a score based the AFINN-165 dataset. This dataset contains a list of words with a corresponding positive or negative score. The overall score would determine whether the provided block of text is a positive or negative sentiment. This is a rudimentary approach for sentiment analysis but is acceptable for this project. One flaw in with this approach is with negation.
