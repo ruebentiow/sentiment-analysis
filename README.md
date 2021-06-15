@@ -1,6 +1,6 @@
 # sentiment-analysis
 
-Rueben Tiow
+Rueben Tiow </br>
 6/15/2021
 
 A simple web app that is built on Node.js to perform sentiment analysis using the AFINN-165 dataset.
