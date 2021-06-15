@@ -9,7 +9,7 @@ The general method for sentiment analysis in this project is to parse a block of
 
 Take for example:
 ```
-I am not sad. I am not unhappy. I am not feeling worse than yesterday."
+"I am not sad. I am not unhappy. I am not feeling worse than yesterday."
 ```
 
 In this scenario, it would result with a negative sentiment because words like ```sad```, ```unhappy``` and ```worse``` would be associated with a negative score. 
